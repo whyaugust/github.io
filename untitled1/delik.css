@@ -1,0 +1,161 @@
+body{
+    font-family: 'HSE Sans';
+    background-color: #ffdab9;  }
+    h1 {
+      font-size: 420%;
+      color: lightcoral;
+      font-family: "HSE Sans"
+    }
+    h2 {
+      font-size: 230%;
+      color: indianred;
+      font-family: "HSE Sans"
+    }
+    h3 {
+      font-size: 180%;
+      color: #e86883;
+      font-family: "HSE Sans"
+    }
+    p {
+      font-size: 160%;
+      color: darkred
+    }
+    .sign {
+    float: right; /* Выравнивание по правому краю */
+    border: 5px dotted darkred; /* Параметры рамки */
+    padding: 10px; /* Поля внутри блока */
+    margin: 14px 0 9px 9px; /* Отступы вокруг */
+    background: lightpink; /* Цвет фона */}
+   .sign figcaption {
+     margin: 0 auto 90 px; /* Отступы вокруг абзаца */
+     color: darkred;
+     font-family: "HSE Sans";
+     font-size: 200%;
+   }
+
+
+header {
+     font-family: "HSE Sans";
+     font-size: 120%
+   }
+
+ul {
+     color: darkred;
+     font-family: "HSE Sans";
+     font-size: 130%;
+   }
+ol {
+     color: darkred;
+     font-family: "HSE Sans";
+     font-size: 70%;
+   }
+
+li {
+     color: darkred;
+     font-family: "HSE Sans";
+     font-size: 130%;
+   }
+.dog-h {
+    width: 600px;
+    margin: 40px auto;
+    background: #dbb5b5;
+    padding:25px;
+    text-align: center;
+    font-size: 24px;
+    text-transform: uppercase;}
+
+.dog {
+    position: relative;
+    overflow: hidden; }
+.subh {
+  font-size: 20px;
+  color: indianred;
+  font-weight: 700;
+}
+.dog-title a {
+    text-decoration: none;
+    color: #2e2e2e;
+    font-weight: 600;
+    margin: 15px 0 5px;
+    padding-bottom: 7px;
+    display: block;
+    position: relative;
+    transition: .3s ease-in-out;}
+.dog-title-u a{
+  text-decoration-line: underline;
+  color: #2e2e2e;
+  font-weight: 600;
+  margin: 15px 0 5px;
+  padding-bottom: 7px;
+  display: block;
+  position: relative;
+  transition: .3s ease-in-out;
+  }
+
+
+.dog-title a:hover {
+    color: red;}
+
+.dog-title a:active {
+  color: palevioletred;
+}
+
+.dropdown {
+        position: relative;
+        display: inline-block;
+        text-decoration: none;
+        color: #2e2e2e;
+        font-weight: 600;
+        margin: 15px 0 5px;
+        padding-bottom: 7px;
+        display: block;
+        position: relative;
+        transition: .3s ease-in-out;
+     }
+
+
+
+  a {
+     color: indianred;
+     font-family: "HSE Sans";
+     font-size: 120%;}
+
+a:link {
+  color: indianred;
+}
+
+a:active {
+  color: palevioletred;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+  text-decoration: underline;
+  color: #2e2e2e;
+  font-weight: 600;
+  margin: 15px 0 5px;
+  padding-bottom: 7px;
+  display: block;
+  position: relative;
+  transition: .3s ease-in-out;
+     }
+
+     .dropdown-content {
+        display: none;
+        position: absolute;
+        max-width:150px;
+        background-color: #ecd1d7;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 5;
+     }
+
+     .dropdown-content a {
+        color: black;
+        padding: 12px 12px;
+        text-decoration: none;
+        display: block;
+     }
+     .dropdown-content a:hover {background-color: #f1f1f1;}
+     .dropdown:hover
+     .dropdown-content {display: block;}
+
